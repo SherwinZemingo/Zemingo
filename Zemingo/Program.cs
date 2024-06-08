@@ -6,7 +6,7 @@ public class Program
 
         Console.WriteLine("The Time Complexity of QuickPushDataStructure is O(n) for Pop and  O(1) for Push");
 
-        Console.WriteLine("This works under normal scenarios as expected, and I have added locks to make it threadsafe which might alter the complexity in multithreaded environment.");
+        Console.WriteLine("This works under normal scenarios as expected, and I have added atomic operations to make it threadsafe which might alter the complexity in multithreaded environment.");
 
         Console.WriteLine("If the idea is to maintain the complexity at all times, we can use locks but it will affect the consistency.");
 
